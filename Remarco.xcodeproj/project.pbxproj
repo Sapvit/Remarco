@@ -16,6 +16,14 @@
 		0214E6A82B46E77300B33A66 /* RemarcoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0214E6A72B46E77300B33A66 /* RemarcoTests.swift */; };
 		0214E6B22B46E77300B33A66 /* RemarcoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0214E6B12B46E77300B33A66 /* RemarcoUITests.swift */; };
 		0214E6B42B46E77300B33A66 /* RemarcoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0214E6B32B46E77300B33A66 /* RemarcoUITestsLaunchTests.swift */; };
+		0214E6C12B46EAE300B33A66 /* PeerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0214E6C02B46EAE300B33A66 /* PeerView.swift */; };
+		0214E6C32B46EB8000B33A66 /* Peer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0214E6C22B46EB8000B33A66 /* Peer.swift */; };
+		0214E6C52B46FB3400B33A66 /* ColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0214E6C42B46FB3400B33A66 /* ColorScheme.swift */; };
+		0214E6C72B4717C900B33A66 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0214E6C62B4717C900B33A66 /* MainView.swift */; };
+		02DDD5182B48258000636738 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DDD5172B48258000636738 /* TodayView.swift */; };
+		02DDD51A2B48354C00636738 /* MeetingNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DDD5192B48354C00636738 /* MeetingNoteView.swift */; };
+		02DDD51C2B48356900636738 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DDD51B2B48356900636738 /* Models.swift */; };
+		02EF231E2B4C44A0006B7DE9 /* RemindersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF231D2B4C449F006B7DE9 /* RemindersListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		0214E6AD2B46E77300B33A66 /* RemarcoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemarcoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0214E6B12B46E77300B33A66 /* RemarcoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemarcoUITests.swift; sourceTree = "<group>"; };
 		0214E6B32B46E77300B33A66 /* RemarcoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemarcoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0214E6C02B46EAE300B33A66 /* PeerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerView.swift; sourceTree = "<group>"; };
+		0214E6C22B46EB8000B33A66 /* Peer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peer.swift; sourceTree = "<group>"; };
+		0214E6C42B46FB3400B33A66 /* ColorScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorScheme.swift; sourceTree = "<group>"; };
+		0214E6C62B4717C900B33A66 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		02DDD5172B48258000636738 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		02DDD5192B48354C00636738 /* MeetingNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingNoteView.swift; sourceTree = "<group>"; };
+		02DDD51B2B48356900636738 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		02EF231D2B4C449F006B7DE9 /* RemindersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +116,16 @@
 			isa = PBXGroup;
 			children = (
 				0214E6902B46E77100B33A66 /* RemarcoApp.swift */,
+				0214E6C22B46EB8000B33A66 /* Peer.swift */,
 				0214E6922B46E77100B33A66 /* Persistence.swift */,
 				0214E6972B46E77100B33A66 /* ContentView.swift */,
+				0214E6C62B4717C900B33A66 /* MainView.swift */,
+				02DDD5172B48258000636738 /* TodayView.swift */,
+				0214E6C02B46EAE300B33A66 /* PeerView.swift */,
+				02DDD5192B48354C00636738 /* MeetingNoteView.swift */,
+				02EF231D2B4C449F006B7DE9 /* RemindersListView.swift */,
+				02DDD51B2B48356900636738 /* Models.swift */,
+				0214E6C42B46FB3400B33A66 /* ColorScheme.swift */,
 				0214E6992B46E77200B33A66 /* Assets.xcassets */,
 				0214E69B2B46E77200B33A66 /* Remarco.entitlements */,
 				0214E6942B46E77100B33A66 /* Remarco.xcdatamodeld */,
@@ -265,10 +289,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02DDD51C2B48356900636738 /* Models.swift in Sources */,
 				0214E6962B46E77100B33A66 /* Remarco.xcdatamodeld in Sources */,
+				02EF231E2B4C44A0006B7DE9 /* RemindersListView.swift in Sources */,
+				0214E6C72B4717C900B33A66 /* MainView.swift in Sources */,
 				0214E6912B46E77100B33A66 /* RemarcoApp.swift in Sources */,
 				0214E6982B46E77100B33A66 /* ContentView.swift in Sources */,
+				02DDD51A2B48354C00636738 /* MeetingNoteView.swift in Sources */,
+				02DDD5182B48258000636738 /* TodayView.swift in Sources */,
+				0214E6C52B46FB3400B33A66 /* ColorScheme.swift in Sources */,
+				0214E6C32B46EB8000B33A66 /* Peer.swift in Sources */,
 				0214E6932B46E77100B33A66 /* Persistence.swift in Sources */,
+				0214E6C12B46EAE300B33A66 /* PeerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
