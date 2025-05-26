@@ -55,5 +55,5 @@
 
 ## 👨‍💻 Author
 
-**Nikolay Khort**, 2024  
+**Nikolay K**, 2024  
 © All rights reserved))
