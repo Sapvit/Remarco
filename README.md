@@ -1,59 +1,61 @@
 # 📒 Remarco
 
-**Remarco** — это прототип гибридного приложения, которое объединяет ✍️ заметки, ⏰ напоминания и 👥 микро-CRM для локального использования.
+**Remarco** is a prototype of a hybrid personal productivity app that combines ✍️ note-taking, ⏰ reminders, and 👥 micro-CRM features — all designed for local use.
 
 ---
 
 ## 📌 About the Project
 
-Приложение позволяет:
+This app allows you to:
 
-- 👤 Создавать и управлять партнёрами (клиенты, контрагенты и др.)
-- 🔗 Добавлять связанные контакты (email, Telegram и пр.)
-- 📝 Хранить историю встреч и заметок по каждому партнёру
-- ⏳ Устанавливать напоминания, привязанные к партнёрам или событиям
-- 📎 Прикреплять файлы и документы к заметкам
+- 👤 Create and manage peers (clients, partners, etc.)
+- 🔗 Add related contacts (email, Telegram, etc.)
+- 📝 Keep a history of meetings and notes for each peer
+- ⏳ Set reminders linked to peers and meetings
+- 📎 Attach files and documents to notes
 
-> ⚠️ Это **визуальный прототип**, использующий `CoreData` для хранения данных локально. Не предназначен для продакшена.
+> ⚠️ This is a **visual prototype**, using `CoreData` as a simple local storage. It is not intended for production use.
 
 ---
 
 ## 🚧 Status
 
-Проект находится на стадии **прототипа/макета** и не завершён. Используется как демонстрация концепции.
+The project is in a **prototype/mockup** phase and not finalized. It demonstrates the concept only.
 
 ---
 
 ## 🖼️ Screenshots
 
-| Экран 1 | Экран 2 |
-|--------|--------|
+| Screen 1 | Screen 2 |
+|----------|----------|
 | ![](screenshots/Remarco-scr1.png) | ![](screenshots/Remarco-scr2.png) |
 
-| Экран 3 | Экран 4 |
-|--------|--------|
+| Screen 3 | Screen 4 |
+|----------|----------|
 | ![](screenshots/Remarco-scr3.png) | ![](screenshots/Remarco-scr4.png) |
+
+> 💡 Screenshots are located in the `screenshots/` folder. Make sure they are uploaded to your repo.
 
 ---
 
 ## ▶️ How to Run
 
-1. Откройте проект в **Xcode**
-2. Соберите и запустите его на симуляторе или устройстве
+1. Open the project in **Xcode**
+2. Build and run on a simulator or a real device
 
 ---
 
 ## 🛠️ Ideas for Future Development
 
-- 🔁 Перейти на `SwiftData`
-- ✅ Завершить реализацию приложения
-- 📅 Интеграция с календарями
-- ⏰ Расширенные напоминания и типы вложений
-- 🎨 Улучшение UI/UX
+- 🔁 Migrate to `SwiftData`
+- ✅ Finalize the app for release
+- 📅 Integrate with system calendars
+- ⏰ Advanced reminders and attachment support
+- 🎨 Improved UI and UX
 
 ---
 
 ## 👨‍💻 Author
 
 **Nikolay K**, 2024  
-© All rights reserved))
+© All rights reserved.
