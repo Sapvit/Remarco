@@ -34,8 +34,6 @@ The project is in a **prototype/mockup** phase and not finalized. It demonstrate
 |----------|----------|
 | ![](screenshots/Remarco-scr3.png) | ![](screenshots/Remarco-scr4.png) |
 
-> 💡 Screenshots are located in the `screenshots/` folder. Make sure they are uploaded to your repo.
-
 ---
 
 ## ▶️ How to Run
